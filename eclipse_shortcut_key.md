@@ -20,7 +20,7 @@ catagories: 开发工具
 |快捷键|说明|
 |:---------------------|-------------------------------------------------|
 |alt+/|代码提示，这个不用说了，大家都知道|
-|ctrl+1|为错误代码给出纠正方案;  比如抛出异常，调用有非RuntimeException异常声明的方法适合，ctrl+1选择异常处理方式(add throws declaration|Surround with try/catch)，回车；实现接口，引入接口后，在类上ctrl+1选择add unimplements method, 回车；我常用的是调用一个方法，要将方法返回值设置给本地变量，直接写方法调用，然后ctrl+1, Assign statement to new local variable, 搞定， 也可以使用ctrl+2, l  (L的小写)， 但ctrl+2类型的是组合快捷键，需要先按ctrl+2等选择界面出来后，才能选再按l， 比较慢；|
+|ctrl+1|为错误代码给出纠正方案;  比如抛出异常，调用有非RuntimeException异常声明的方法适合，ctrl+1选择异常处理方式(add throws declaration或者Surround with try/catch)，回车；实现接口，引入接口后，在类上ctrl+1选择add unimplements method, 回车；我常用的是调用一个方法，要将方法返回值设置给本地变量，直接写方法调用，然后ctrl+1, Assign statement to new local variable, 搞定， 也可以使用ctrl+2, l  (L的小写)， 但ctrl+2类型的是组合快捷键，需要先按ctrl+2等选择界面出来后，才能选再按l， 比较慢；|
 |ctrl+shift+o|导入包，并清理import， 注意可能个别包会导错，有多个需要可选包的时候注意选择正确的包|
 |ctrl+d|删除当前行或者当前选中的内容|
 |ctrl+/|注释当前行代码， //单行注释|
