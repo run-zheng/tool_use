@@ -20,10 +20,11 @@ catagories: 开发工具
 |快捷键|说明|
 |:---------------------|-------------------------------------------------|
 |alt+/|代码提示，这个不用说了，大家都知道|
-|ctrl+1|为错误代码给出纠正方案;  比如抛出异常，调用有非RuntimeException异常声明的方法适合，ctrl+1选择异常处理方式(add throws declaration或Surround with try/catch)，回车；实现接口，引入接口后，在类上ctrl+1选择add unimplements method, 回车；我常用的是调用一个方法，要将方法返回值设置给本地变量，直接写方法调用，然后ctrl+1, Assign statement to new local variable, 搞定， 也可以使用ctrl+2, l  (L的小写)， 但ctrl+2类型的是组合快捷键，需要先按ctrl+2等选择界面出来后，才能选再按l， 比较慢；|
+|ctrl+1|为错误代码给出纠正方案;  比如抛出异常，调用有非RuntimeException异常声明的方法适合，ctrl+1选择异常处理方式(add throws declaration|Surround with try/catch)，回车；实现接口，引入接口后，在类上ctrl+1选择add unimplements method, 回车；我常用的是调用一个方法，要将方法返回值设置给本地变量，直接写方法调用，然后ctrl+1, Assign statement to new local variable, 搞定， 也可以使用ctrl+2, l  (L的小写)， 但ctrl+2类型的是组合快捷键，需要先按ctrl+2等选择界面出来后，才能选再按l， 比较慢；|
 |ctrl+shift+o|导入包，并清理import， 注意可能个别包会导错，有多个需要可选包的时候注意选择正确的包|
 |ctrl+d|删除当前行或者当前选中的内容|
-|ctrl+/|注释当前行代码|
+|ctrl+/|注释当前行代码， //单行注释|
+|ctrl+shift+/|注释当前选择内容，/* */块注释|
 |ctrl+shift+f|如果选择代码，则格式化选择代码，如果没选中，格式化整文档|
 |ctrl+3|quick access,  类似sb的goto anything|
 |ctrl+alt+↓或者ctrl+alt+↑|复制当前行或当前选中内容|
@@ -31,6 +32,7 @@ catagories: 开发工具
 |ctrl+空格|补全代码， 如果Java->Editor->Content Assist的提示延迟比较小，不用敲这个快捷键也很快出来，但是延迟太小，提示太快对编码也有影响，根据个人习惯自由调整，注意设置中还有triggers for java可以设置成.abcdefghijklmnopqrstuvwxyz，触发更灵敏|
 |shift+enter|在当前行下面另起一个空行，sb快捷键也有，只是快捷键默认是ctrl+enter|
 |ctrl+shift+enter|在当前行上面另起一个空行|
+|ctrl+. 或者 ,|如果有警告或者错误，可以用这个快捷键来跳转到上一个或者下一个警告或错误|
 |alt+shift+↑或↓或 ← 或 →|选择代码块，按多次↑，可以一直往外选择完整代码块，其实上下左右的箭头都可以用，上扩下缩，左上扩右下扩|
 |ctrl+shift+← 或 →|以单词为单位控制光标跳动|
 |ctrl+shift+↑或↓|以元素（方法，属性等）为单位控制光标跳动|
@@ -57,6 +59,14 @@ catagories: 开发工具
 |F4          |打开类型关系透视图|
 |ctrl+alt+h  |查看方法调用链|
 |ctrl+t      |查看类的继承关系，如果在接口方法上使用快捷键，可以直接查看到接口的实现类，点击实现类，可以直接查看到实现方法|
+|ctrl+shift+r|打开资源文件， 一般是查找xml，js之类文件的快捷方式，不需要知道路径，只需要文件名|
+|ctrl+shift+u|在当前文档中查找当前光标所在的属性、变量、方法、类、字符串等在文件中出现的位置，这个快捷键好用，墙裂推荐|
+|ctrl+l|跳转到指定的某一行|
+|ctrl+e|一次打开文件太多了，可以用这个快捷键，输入文件名，打开对应的文件，不能用光标选择| 
+|ctrl+shift+e|跟ctrl+e有点类似，需要用光标上下选择|
+|ctrl+page up 或 page down, ctrl+shift+page up 或 page down|这四个快捷键类似，切换打开的文件，如果是遇到收起来的文件，功能和ctrl+e类似，但是多了切换功能|
+|ctrl+shift+p|跳到代码块的开始位置或结束位置|
+|ctrl+g|在工作空间中查找当前光标内容（本地变量，属性，类，方法等）被定义的位置|
 |ctrl+alt+g  |在workspace中查找当前选中文本|
 |ctrl+k      |向前查找当前选中内容|
 |ctrl+shift+k|向后查找当前选中内容|
@@ -74,6 +84,7 @@ catagories: 开发工具
 |F7          |执行当前方法剩余所有内容，并退出，返回到当前方法被调用出继续| 
 |F8          |不再调试当前断点|
 |F11         |调试运行当前类|
+|ctrl+F11|Runy运行|
 |ctrl+alt+b  |跳过所有断点|
 |ctrl+shift+b|添加当前行断点|
 
@@ -97,6 +108,7 @@ catagories: 开发工具
 |alt + →      |    往后切换打开编辑 窗口的历史|
 |ctrl+w       |    关闭当前编辑窗口|
 |ctrl+shift+F4|关闭所有编辑窗口 |
+|ctrl+m|最大化或最小化当前窗口|
 
 ###### **其他** ：
 
